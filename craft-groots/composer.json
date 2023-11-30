@@ -1,0 +1,24 @@
+{
+    "name": "globalia/craft-groots",
+    "description": "Tools for developers",
+    "type": "craft-plugin",
+    "require": {
+        "craftcms/cms": "^4.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "globalia\\groots\\": "src/"
+        }
+    },
+    "extra": {
+        "handle": "_globalia-craft-groots",
+        "name": "Globalia Groots for Twig",
+        "developer": "Globalia inc.",
+        "documentationUrl": "https://test-craft.ddev.site/docs/groots/",
+        "class": "globalia\\groots\\GlobaliaGroots"
+    },
+    "support": {
+        "email": "sylvain.tremblay@globalia.ca"
+      }    
+}
+

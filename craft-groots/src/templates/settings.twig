@@ -1,0 +1,14 @@
+{# {% extends '_layouts/cp' %} #}
+
+{% import '_includes/forms.twig' as forms %}
+
+{{ forms.textField({
+  first: true,
+  label: 'Groots Path',
+  name: 'groots_path',
+  value: settings.groots_path,
+  instructions: 'The path to groots template folder on your server. Example: /var/www/html/groots/workspace ',
+  errors: settings.getErrors('groots_path')
+
+}) }}
+
